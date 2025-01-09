@@ -1,20 +1,26 @@
 <!-- Readme background image -->
 ![./Roxy Cars Website logo.jpeg](/RoxyCarsWebsitelogo.png)
 
-- Clone or Download the project files.
+Quick Start Guide
+1. Clone or Download the Project Files
 
-- Set Up the Database(in Xampp):
- Create a new MySQL database `vehiclebookings`.
- Import the provided SQL file (`vehiclebookings.sql`) to set up the required tables and default data.
-<!-- - Configure Database Connection: -->
-<!-- Edit the config.php file to match your local database credentials (host, username, password, database name). -->
+- Clone the repository:
+git clone https://github.com/your-username/Roxy-cars.git
+Or download the ZIP file, extract it, and place the folder in your server's document root (e.g., C:\xampp\htdocs\ for XAMPP).
+Set Up the Database (phpMyAdmin)
 
-- Start the Server:
-Use a local server environment (e.g., XAMPP or WAMP). Place the project in the htdocs directory and access it in your browser via `http://localhost/Roxy-cars`.
+2. Start your local server (Apache and MySQL via XAMPP/WAMP).
+- Open http://localhost/phpmyadmin in your browser.
+Create a new database named `vehiclebookings`.
+Import the provided SQL file (`vehiclebookings.sql`) into the database.
+3. Start the Server
 
--Login:
+- Ensure the project is in the document root (e.g., C:\xampp\htdocs\Roxy-cars).
+- Access the project in your browser: `http://localhost/Roxy-cars`
 
-- Use the default credentials provided in the database to log in and explore the app features.
+4. Login
+
+- Use the default credentials in the database to log in:
 
 **Admin Login Details**
 
